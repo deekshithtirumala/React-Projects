@@ -1,0 +1,25 @@
+.responsive{
+    width: 100%;
+    height: auto;
+    transform: scaleX(-1);
+}
+.image-center{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.image-title{
+    font-size: 3vw;
+    font-weight: bold;
+}
+.five-g-text{
+    font-size: 10vw;
+    font-weight: bold;
+    color: red;
+}
+.image-body{
+    font-size: 2vw;
+}

@@ -1,0 +1,134 @@
+body{
+	margin: auto;
+	background: #e4e4e4;
+	width: 90%;
+	align-items: center;
+	min-width: 840px;
+}
+.header	{
+
+}
+.title{
+	padding-top: 20px;
+	padding-left: 20px;
+	display: inline-block;
+	
+}
+
+.title div {
+	display: inline-block;
+}
+.nav_bar{
+	display: inline-block;
+	float: right;
+	padding-top: 20px;
+}
+.nav_bar ul li{
+	display: inline-block;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+	background: #e4e4e4;
+	margin: 15px;
+}
+.nav_bar ul li a{
+	padding: 20px; 
+	color: #34A57F;
+	text-decoration: none;
+	border-radius: 15px;
+}
+.nav_bar ul li  a:visited {
+	color: #AAA57F;
+	border-bottom: 2px solid #fff; 
+}
+.nav_bar ul li  a:hover {
+	color: #AAA57F;
+	border-bottom: 2px solid #fff; 
+}
+.main_container{
+	justify-content: center;
+	align-items: center;
+}
+.footer{
+	text-align: right;
+}
+.form{
+				width: 270px;
+				height: 380px;
+				background:linear-gradient;
+				/*  position:;
+				top: 20px;
+				left: 87px; */
+				border-radius: 10px;
+				padding: 25px;
+				margin: 80px 10px 30px 300px;
+				display:block;
+				align:center;
+				background:#fff;
+				
+}
+.form h2{
+				width: 220px;
+				font-family:sans-serif;
+				text-align:center;
+				colour:blue;
+				font-size:22px ;
+				background-colour:grey;
+				border-radius: 10px;
+				margin: 2px;
+				padding: 8px;
+}
+.form input{
+				width: 240px;
+				height: 35px;
+				background: transparent ;
+				border-top:none;
+				border-bottom:1px solid blue;
+				border-left:none;
+				border-right:none;
+				color:green;
+				font-size:15px;
+				letter-spacing:1px;
+				margin-top:30px;
+				font-family:sans-serif;
+}
+.form input:focus{
+				outline:none;
+				
+}
+:: placeholder{
+				color:green;
+				font-family:Arial;
+}
+.btnn{
+				width: 240px;
+				height: 40px;
+				background-color: grey;
+				border:none;
+				margin-top:30px;
+				font-size:18px;
+				border-radius: 10px;
+				cursor:pointer;
+				color:#fff;
+				transition:0.4s ease;
+				
+}
+.btnn:hover{
+				background: #34A57F;
+				color:#fff;
+}
+.btnn a{
+				text-decoration:none;
+				color:black;
+				font-weight:bold ;
+}
+.form .link{
+				font-family:Arial;
+				font-size:17px;
+				text-align:center;
+				padding-top: 20px;
+}
+.form .link a{
+				text-decoration:none;
+				color:black;
+}
